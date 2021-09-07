@@ -14,55 +14,71 @@
 /*Font Styling*/
 
 h1 {
-   
+
     font-size: 3rem;
     padding-top: 100px;
     padding-bottom: 15px;
     text-align: center;
+    font-family: 'Lobster', cursive;
+    font-weight: 900;
+    color: #e8edf0;
+    background-color: #c0392b;
 
 }
 
-h1 {
-  
-    font-family: lato;
-    color: #ecf0f1;
-      
-}
 
-p {
-    font-family: lato;  
-    text-align: center;
-    color: #c0392b ;
-}
+/*MAIN BODY STRUCTURING*/
 
 .body-structure {
-    background-color: #5da1e6;
-    height: 300px;
+    background-color: #2980b9;
+    height: 400px;
     width: 400px;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 330px;
+    margin-left: 770px;
     box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.541);
-    
-    
-    
+
+}
+
+.body-structure input {
+    margin: auto;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+
+.body-structure button {
+    margin: auto;
+    margin-left: 43%;
+    margin-top: 25px;
 }
 
 
-.body-structure:hover {
-    box-shadow: box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
-}
 
 
 .body-structure2 {
-    background-color: #f39f32;
+    background-color: #2980b9;
     height: 300px;
     width: 400px;
     margin: auto;
     margin-top: 100px;
     box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.541);
-    
-    
-    
+
+}
+
+
+
+/*IMAGES*/
+
+img {
+    border-radius: 8%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-left: 32%;
+    padding-top: 15px;
+    box-shadow: 0 14px px 0 rgba(0, 0, 0, 0.541);
+
+
 }
 
 
@@ -76,15 +92,25 @@ p {
 }
 
 .button {
-    float: right;
+
     padding-right: 150px;
     position: relative;
-    bottom: 43px;
+    bottom: 45px;
+
+
+
 }
 
 label {
-    color: white;
+    color: rgb(180, 128, 128);
     position: relative;
     left: 35px;
     font-size: 1.5rem;
+}
+
+
+body {
+    background-image: url(/BACKGROUNDS/MLB\ WALLPAPERS.jpg);
+
+
 }
