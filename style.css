@@ -10,7 +10,11 @@
 
 }
 
+body {
+    background-image: url(/BACKGROUNDS/MLB\ WALLPAPERS.jpg);
 
+
+}
 /*Font Styling*/
 
 h1 {
@@ -109,8 +113,3 @@ label {
 }
 
 
-body {
-    background-image: url(/BACKGROUNDS/MLB\ WALLPAPERS.jpg);
-
-
-}
